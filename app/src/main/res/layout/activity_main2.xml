@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Courses for Registration"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <!-- List of Courses with Checkboxes -->
+        <CheckBox
+            android:id="@+id/course_ds_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data Structures" />
+
+        <CheckBox
+            android:id="@+id/course_daa_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DAA" />
+
+        <CheckBox
+            android:id="@+id/course_toc_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TOC" />
+
+        <CheckBox
+            android:id="@+id/course_dbms_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DBMS" />
+
+        <CheckBox
+            android:id="@+id/course_ai_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AI" />
+
+        <CheckBox
+            android:id="@+id/course_oop_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OOP" />
+
+        <CheckBox
+            android:id="@+id/course_iap_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IAP" />
+
+        <CheckBox
+            android:id="@+id/course_mobile_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile Apps" />
+
+        <CheckBox
+            android:id="@+id/course_networks_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Networks" />
+
+        <CheckBox
+            android:id="@+id/course_graphics_checkbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Computer Graphics" />
+
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
