@@ -7,6 +7,10 @@ import android.widget.CheckBox;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class MainActivity2 extends AppCompatActivity {
     private CheckBox dsCheckBox, daaCheckBox, tocCheckBox, dbmsCheckBox, aiCheckBox, oopCheckBox,
             iapCheckBox, mobileAppsCheckBox, computerNetworksCheckBox, computerGraphicsCheckBox;
@@ -16,6 +20,8 @@ public class MainActivity2 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
+        FirebaseApp.initializeApp(this);
+
 
         // Initialize CheckBoxes
         dsCheckBox = findViewById(R.id.course_ds_checkbox);
